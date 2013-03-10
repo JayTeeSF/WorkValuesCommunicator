@@ -1,33 +1,415 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/ScrollView01"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:scrollbars="vertical"
     tools:context=".MainActivity" >
 
-    <LinearLayout
+    <EditText
+        android:id="@+id/EditTextEmail"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:orientation="vertical" >
+        android:layout_height="wrap_content"
+        android:hint="@string/senderemail"
+        android:inputType="textEmailAddress" >
+    </EditText>
 
-        <TextView
-            android:id="@+id/TextViewTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/introtext" />
+    <!-- intro bgn -->
 
-        <EditText
-            android:id="@+id/EditTextEmail"
+    <TextView
+        android:id="@+id/TextViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/introtext"
+        android:textStyle="italic" />
+
+    <!-- intro end -->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="13dip" />
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:scrollbars="vertical" >
+
+        <TableLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/senderemail"
-            android:inputType="textEmailAddress" >
-        </EditText>
-    </LinearLayout>
+            android:orientation="vertical" >
 
-</ScrollView>
+            <TableRow android:layout_marginBottom="3dip" >
+
+                <!-- Q1 bgn -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question1" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="20dip" >
+
+                <Spinner
+                    android:id="@+id/Question1Spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/valuetypelist" />
+
+                <!-- Q1 end -->
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="3dip" >
+
+                <!-- Q2 bgn -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question2" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="20dip" >
+
+                <Spinner
+                    android:id="@+id/Question2Spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/valuetypelist" />
+
+                <!-- Q2 end -->
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="3dip" >
+
+                <!-- Q3 bgn -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question3" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="20dip" >
+
+                <Spinner
+                    android:id="@+id/Question3Spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/valuetypelist" />
+
+                <!-- Q3 end -->
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="3dip" >
+
+                <!-- Q4 bgn -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question4" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="20dip" >
+
+                <Spinner
+                    android:id="@+id/Question4Spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/valuetypelist" />
+
+                <!-- Q4 end -->
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="3dip" >
+
+                <!-- Q5 bgn -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question5" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="20dip" >
+
+                <Spinner
+                    android:id="@+id/Question5Spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/valuetypelist" />
+
+                <!-- Q5 end -->
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="3dip" >
+
+                <!-- Q6 bgn -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question6" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="20dip" >
+
+                <Spinner
+                    android:id="@+id/Question6Spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/valuetypelist" />
+
+                <!-- Q6 end -->
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="3dip" >
+
+                <!-- Q7 bgn -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question7" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="20dip" >
+
+                <Spinner
+                    android:id="@+id/Question7Spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/valuetypelist" />
+
+                <!-- Q7 end -->
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="3dip" >
+
+                <!-- Q8 bgn -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question8" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="20dip" >
+
+                <Spinner
+                    android:id="@+id/Question8Spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/valuetypelist" />
+
+                <!-- Q8 end -->
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="3dip" >
+
+                <!-- Q9 bgn -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question9" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="20dip" >
+
+                <Spinner
+                    android:id="@+id/Question9Spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/valuetypelist" />
+
+                <!-- Q9 end -->
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="3dip" >
+
+                <!-- Q10 bgn -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question10" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="20dip" >
+
+                <Spinner
+                    android:id="@+id/Question10Spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/valuetypelist" />
+
+                <!-- Q10 end -->
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="3dip" >
+
+                <!-- Q11 bgn -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question11" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="20dip" >
+
+                <Spinner
+                    android:id="@+id/Question11Spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/valuetypelist" />
+
+                <!-- Q11 end -->
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="3dip" >
+
+                <!-- Q12 bgn -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question12" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="20dip" >
+
+                <Spinner
+                    android:id="@+id/Question12Spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/valuetypelist" />
+
+                <!-- Q12 end -->
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="3dip" >
+
+                <!-- Q13 bgn -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question13" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="20dip" >
+
+                <Spinner
+                    android:id="@+id/Question13Spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/valuetypelist" />
+
+                <!-- Q13 end -->
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="3dip" >
+
+                <!-- Q14 bgn -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question14" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="20dip" >
+
+                <Spinner
+                    android:id="@+id/Question14Spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/valuetypelist" />
+
+                <!-- Q14 end -->
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="3dip" >
+
+                <!-- Q15 bgn -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question15" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="20dip" >
+
+                <Spinner
+                    android:id="@+id/Question15Spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/valuetypelist" />
+
+                <!-- Q15 end -->
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="3dip" >
+
+                <!-- Q16 bgn -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question16" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="20dip" >
+
+                <Spinner
+                    android:id="@+id/Question16Spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/valuetypelist" />
+
+                <!-- Q16 end -->
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="3dip" >
+
+                <!-- Q17 bgn -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question17" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="20dip" >
+
+                <Spinner
+                    android:id="@+id/Question17Spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/valuetypelist" />
+
+                <!-- Q17 end -->
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="3dip" >
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="sendMessage"
+                    android:text="@string/button_send" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

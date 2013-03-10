@@ -3,6 +3,40 @@
 
     <string name="app_name">WorkValuesCommunicator</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="senderemail">Please Enter Your Email Address</string>
+    <string name="introtext">Share how you value the following aspects of your work:</string>
+    <string name="button_send">Send</string>
+    <string name="title_activity_display_message">Buh Buh, Now</string>
+    
+    <string name="valuetype1">Never Valued</string>
+    <string name="valuetype2">Seldom Valued</string>
+    <string name="valuetype3">Sometimes Valued</string>
+    <string name="valuetype4">Often Valued</string>
+    <string name="valuetype5">Always Valued</string>
+
+    <string name="question1">(1) Supervision - Opportunity to be responsible for the work of others</string>
+
+    <string name="question2">(2) Precision Work - Perform work that requires careful attention to detail</string>
+    <string name="question3">(3) UI Work - Enjoy creating screens, layouts, and the like</string>
+    <string name="question4">(4) Investigation - Solving complex questions, trouble-shooting and problem-solving as a core part of job</string>
+    <string name="question5">(5) Mental Challenge - Engage continually with complex algorithms, backend-development</string>
+
+    <string name="question6">(6) Work Alone - Do projects by myself, without any amount of contact with others.</string>
+    <string name="question7">(7) Collaboration - Have close working relations with group; work as a team to achieve common goals</string>
+    <string name="question8">(8) Competition - Engage in activities which pit my abilities against others.</string>
+
+    <string name="question9">(9) Public Recognition - Get public credit and positive feedback for work well done</string>
+    <string name="question10">(10) Team Recognition - Recognition of the team (and not the individual) through group outings, parties, etc</string>
+    <string name="question11">(11) Quiet Recognition - Shown appreciation without public announcement: a simple thank-you, a gift-card, etc</string>
+    <string name="question12">(12) Financial Recognition - Shown appreciation with money and money alone</string>
+
+    <string name="question13">(13) Work Under Pressure - Work in circumstances where there is little or no margin for error, or with demanding personal relationships</string>
+    <string name="question14">(14) Time Freedom - Have responsibilities that I can work at according to my time schedule; no specific working hours required.</string>
+
+    <string name="question15">(15) Change and Variety - Work responsibilities that frequently change.</string>
+
+    <string name="question16">(16) Intellectual Status - Be regarded as very well-informed and a strong theorist, acknowledged as an "expert"</string>
+
+    <string name="question17">(17) Moral Fulfillment - Feel that my work is contributing to ideals I feel are very important</string>
 
 </resources>
