@@ -403,6 +403,69 @@
 
             <TableRow android:layout_marginBottom="3dip" >
 
+                <!-- Q18 bgn -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question18" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="20dip" >
+
+                <Spinner
+                    android:id="@+id/Question18Spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/valuetypelist" />
+
+                <!-- Q18 end -->
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="3dip" >
+
+                <!-- Q19 bgn -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question19" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="20dip" >
+
+                <Spinner
+                    android:id="@+id/Question19Spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/valuetypelist" />
+
+                <!-- Q19 end -->
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="3dip" >
+
+                <!-- Q20 bgn -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question20" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="20dip" >
+
+                <Spinner
+                    android:id="@+id/Question20Spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/valuetypelist" />
+
+                <!-- Q20 end -->
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="3dip" >
+
                 <Button
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"

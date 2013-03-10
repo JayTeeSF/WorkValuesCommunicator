@@ -47,7 +47,7 @@ public class MainActivity extends Activity {
 //		Spinner questionSpinner = null;
 //		int id = -1;
 //
-//		for (int i = 1; i <= 17; i++) {
+//		for (int i = 1; i <= 20; i++) {
 //			answerLookup = "Question" + Integer.toString(i) + "Spinner";
 //			id = getResources().getIdentifier(answerLookup, "id",
 //					this.getPackageName());
@@ -86,7 +86,7 @@ public class MainActivity extends Activity {
 
 		int id = -1;
 
-		for (int i = 1; i <= 17; i++) {
+		for (int i = 1; i <= 20; i++) {
 			questionLookup = "question" + Integer.toString(i);
 			id = getResources().getIdentifier(questionLookup, "string",
 					this.getPackageName());

@@ -36,7 +36,10 @@ public final class R {
         public static final int Question15Spinner=0x7f090011;
         public static final int Question16Spinner=0x7f090012;
         public static final int Question17Spinner=0x7f090013;
+        public static final int Question18Spinner=0x7f090014;
+        public static final int Question19Spinner=0x7f090015;
         public static final int Question1Spinner=0x7f090003;
+        public static final int Question20Spinner=0x7f090016;
         public static final int Question2Spinner=0x7f090004;
         public static final int Question3Spinner=0x7f090005;
         public static final int Question4Spinner=0x7f090006;
@@ -47,7 +50,7 @@ public final class R {
         public static final int Question9Spinner=0x7f09000b;
         public static final int ScrollView01=0x7f090002;
         public static final int TextViewTitle=0x7f090001;
-        public static final int action_settings=0x7f090014;
+        public static final int action_settings=0x7f090017;
     }
     public static final class layout {
         public static final int activity_display_message=0x7f030000;
@@ -70,7 +73,10 @@ public final class R {
         public static final int question15=0x7f06001a;
         public static final int question16=0x7f06001b;
         public static final int question17=0x7f06001c;
+        public static final int question18=0x7f06001d;
+        public static final int question19=0x7f06001e;
         public static final int question2=0x7f06000d;
+        public static final int question20=0x7f06001f;
         public static final int question3=0x7f06000e;
         public static final int question4=0x7f06000f;
         public static final int question5=0x7f060010;
