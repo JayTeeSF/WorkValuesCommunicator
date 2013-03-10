@@ -22,6 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="net.his_service.workvaluescommunicator.DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName="net.his_service.workvaluescommunicator.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.his_service.workvaluescommunicator.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

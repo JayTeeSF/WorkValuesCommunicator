@@ -8,6 +8,9 @@
 package net.his_service.workvaluescommunicator;
 
 public final class R {
+    public static final class array {
+        public static final int valuetypelist=0x7f040000;
+    }
     public static final class attr {
     }
     public static final class dimen {
@@ -17,25 +20,72 @@ public final class R {
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f040000;
-        public static final int activity_vertical_margin=0x7f040001;
+        public static final int activity_horizontal_margin=0x7f050000;
+        public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080000;
+        public static final int EditTextEmail=0x7f090000;
+        public static final int Question10Spinner=0x7f09000c;
+        public static final int Question11Spinner=0x7f09000d;
+        public static final int Question12Spinner=0x7f09000e;
+        public static final int Question13Spinner=0x7f09000f;
+        public static final int Question14Spinner=0x7f090010;
+        public static final int Question15Spinner=0x7f090011;
+        public static final int Question16Spinner=0x7f090012;
+        public static final int Question17Spinner=0x7f090013;
+        public static final int Question1Spinner=0x7f090003;
+        public static final int Question2Spinner=0x7f090004;
+        public static final int Question3Spinner=0x7f090005;
+        public static final int Question4Spinner=0x7f090006;
+        public static final int Question5Spinner=0x7f090007;
+        public static final int Question6Spinner=0x7f090008;
+        public static final int Question7Spinner=0x7f090009;
+        public static final int Question8Spinner=0x7f09000a;
+        public static final int Question9Spinner=0x7f09000b;
+        public static final int ScrollView01=0x7f090002;
+        public static final int TextViewTitle=0x7f090001;
+        public static final int action_settings=0x7f090014;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
+        public static final int activity_display_message=0x7f030000;
+        public static final int activity_main=0x7f030001;
     }
     public static final class menu {
-        public static final int main=0x7f070000;
+        public static final int main=0x7f080000;
     }
     public static final class string {
-        public static final int action_settings=0x7f050001;
-        public static final int app_name=0x7f050000;
-        public static final int hello_world=0x7f050002;
+        public static final int action_settings=0x7f060002;
+        public static final int app_name=0x7f060001;
+        public static final int button_send=0x7f060005;
+        public static final int introtext=0x7f060004;
+        public static final int question1=0x7f06000c;
+        public static final int question10=0x7f060015;
+        public static final int question11=0x7f060016;
+        public static final int question12=0x7f060017;
+        public static final int question13=0x7f060018;
+        public static final int question14=0x7f060019;
+        public static final int question15=0x7f06001a;
+        public static final int question16=0x7f06001b;
+        public static final int question17=0x7f06001c;
+        public static final int question2=0x7f06000d;
+        public static final int question3=0x7f06000e;
+        public static final int question4=0x7f06000f;
+        public static final int question5=0x7f060010;
+        public static final int question6=0x7f060011;
+        public static final int question7=0x7f060012;
+        public static final int question8=0x7f060013;
+        public static final int question9=0x7f060014;
+        public static final int recipient_email=0x7f060000;
+        public static final int senderemail=0x7f060003;
+        public static final int title_activity_display_message=0x7f060006;
+        public static final int valuetype1=0x7f060007;
+        public static final int valuetype2=0x7f060008;
+        public static final int valuetype3=0x7f060009;
+        public static final int valuetype4=0x7f06000a;
+        public static final int valuetype5=0x7f06000b;
     }
     public static final class style {
         /** 
@@ -59,10 +109,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f070001;
     }
 }

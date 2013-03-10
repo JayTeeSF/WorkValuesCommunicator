@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="valuetypelist">
+        <item>@string/valuetype1</item>
+        <item>@string/valuetype2</item>
+        <item>@string/valuetype3</item>
+        <item>@string/valuetype4</item>
+        <item>@string/valuetype5</item>
+    </string-array>
+
+</resources>
